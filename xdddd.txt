@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 70%;
+    background-color: red;
+    min-height: 400px;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    background-color: green;
+    min-height: 400px;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    background-color: #1E90FF;
+    height: 40px;
+    clear: both;
+}
