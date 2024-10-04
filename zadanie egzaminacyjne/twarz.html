@@ -27,9 +27,25 @@
         <h1>Usługi kosmetyczne</h1>
     </header>
     <main>
-        <p>Witaj! Miło nam, że odwiedziłeś nasz salon. Zapoznaj się z ofertą lub skontaktuj się z nami.</p>
-        <img src="./img/obraz2.jpg" class="img2" alt="Zrelaksuj się">
-        <h3>Telefon: 111 222 333</h3>
+            <h3>Kalkulator ceny wizyty</h3>
+            <div>
+                <input type="checkbox" name="" id="peeling">
+                <label for="">Peeling</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="maska">
+                <label for="">Maska</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="masaz">
+                <label for="">Masaż twarzy</label>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="makijaz">
+                <label for="">Makijaż</label>
+            </div>
+            <button onclick="wypiszDane()">Oblicz cenę</button>
+            <p id="wypisz"></p>
     </main>
     <aside>
         <img src="./img/obraz1.jpg" class="img1" alt="Personel">
@@ -38,4 +54,5 @@
         <p>Autor: 00000000000</p>
     </footer>
 </body>
+<script src="./sktypt.js"></script>
 </html>
